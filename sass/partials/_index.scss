@@ -1,0 +1,42 @@
+.title-page {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.mirror-left {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: $primary-blue;
+  font-weight: 600;
+  text-align: right;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.mirror-right {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: $highlight-blue;
+  font-weight: 600;
+  text-align: right;
+  word-wrap: break-word;
+  line-height: 50px;
+  text-transform: uppercase;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.mirror-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 320px;
+  margin-top: 100px;
+}

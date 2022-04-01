@@ -1,0 +1,21 @@
+$primary-blue: #0008ff;
+$secondary-blue: #787abb;
+$contrast-yellow: #ffb300;
+$highlight-blue: #f0f0ff;
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: $contrast-yellow;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $primary-blue;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
