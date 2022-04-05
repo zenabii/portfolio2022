@@ -205,6 +205,15 @@ h3 {
   color: #0008ff;
 }
 
+.header-title {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: #0008ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .introduction {
     display: -ms-grid;
@@ -232,6 +241,9 @@ h3 {
   }
   .project-text {
     margin-left: 20px;
+  }
+  .header-title {
+    font-size: 100px;
   }
 }
 
