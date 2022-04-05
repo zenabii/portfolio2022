@@ -40,3 +40,38 @@
   width: 320px;
   margin-top: 100px;
 }
+
+.introduction {
+  margin-top: 120px;
+}
+
+.software-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+  width: 70px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.softwares {
+  margin-top: 50px;
+}
+
+.projects {
+  margin-top: 100px;
+}
+
+.project-text {
+  margin-top: 20px;
+}
+
+.project-container {
+  margin-top: 60px;
+}

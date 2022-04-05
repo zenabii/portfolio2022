@@ -1,10 +1,9 @@
-@import "./partials/buttons";
-@import "./partials/fonts";
-@import "./partials/media";
-@import "./partials/base";
-@import "./partials/index";
+@import "./foundations/config";
 
-html,
-body {
-  margin: 0 auto;
-}
+@import "./partials/base";
+@import "./partials/buttons";
+@import "./partials/media";
+@import "./partials/index";
+@import "./partials/fonts";
+
+@import "./foundations/responsive";

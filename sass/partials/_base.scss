@@ -19,3 +19,21 @@ $highlight-blue: #f0f0ff;
 .bg-light {
   background-color: transparent !important;
 }
+
+body {
+  padding: 10px;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+align-items: center;
+margin-top: 100px;
+}
+
+.copyright {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
