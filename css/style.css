@@ -51,6 +51,17 @@ footer {
   text-align: center;
 }
 
+.center-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.margin-top {
+  padding-top: 100px;
+}
+
 .btn-primary {
   border-radius: 25px;
   text-transform: uppercase;
@@ -59,6 +70,7 @@ footer {
   padding: 10px 30px;
   background-color: #787abb;
   border-color: transparent;
+  max-width: 200px;
 }
 
 .logo {
@@ -79,6 +91,22 @@ footer {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
+}
+
+.double-img-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.img-container {
+  height: 385px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
 }
 
 .title-page {
@@ -282,6 +310,12 @@ h3 {
   .center {
     text-align: left;
   }
+  .double-img-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -305,6 +339,16 @@ h3 {
     margin: 0 auto;
     width: 1000px;
     padding-top: 100px;
+  }
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .img-height {
+    height: 500px;
+  }
+  .img-container {
+    height: 500px;
   }
 }
 /*# sourceMappingURL=style.css.map */

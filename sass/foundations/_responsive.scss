@@ -46,6 +46,11 @@
         text-align: left;
     }
 
+    .double-img-container {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+      }
+
 }
 
 @include media-large  {
@@ -74,4 +79,17 @@
         width: 1000px;
         padding-top: 100px;
     }
+
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .img-height {
+        height: 500px;
+    }
+
+    .img-container {
+        height: 500px;
+      }
 }
